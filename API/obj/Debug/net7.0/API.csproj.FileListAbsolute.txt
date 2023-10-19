@@ -73,3 +73,5 @@
 /Users/user/Desktop/BinaAPP/API/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Design.dll
 /Users/user/Desktop/BinaAPP/API/bin/Debug/net7.0/Mono.TextTemplating.dll
 /Users/user/Desktop/BinaAPP/API/bin/Debug/net7.0/System.CodeDom.dll
+/Users/user/Desktop/BinaAPP/API/bin/Debug/net7.0/MediatR.dll
+/Users/user/Desktop/BinaAPP/API/bin/Debug/net7.0/MediatR.Contracts.dll
