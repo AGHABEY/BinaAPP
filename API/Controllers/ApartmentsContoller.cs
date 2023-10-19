@@ -6,27 +6,30 @@ using Domain;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Persistence;
+using MediatR;
+using System.Runtime.CompilerServices;
+using Application.Apartments;
 
 namespace API.Controllers
 {
     public class ApartmentsContoller : BaseApiController
     {
-        private readonly DataContext _context;
-       public ApartmentsContoller(DataContext context)
+        private readonly Mediator _mediator;
+       public ApartmentsContoller(Mediator mediator)
        {
-          _context=context;
+          _mediator=mediator;
        }   
 
        [HttpGet] //api/apartments
        public async Task<ActionResult<List<Apartment>>> GetApartments()
        {
-         return await _context.Apartments.ToListAsync();
+         return await _mediator.Send(new List.Query());
        }
 
        [HttpGet("{id}")]
        public async Task<ActionResult<Apartment>> GetApartment(Guid id)
        {
-          return await _context.Apartments.FindAsync(id);
+          return Ok();
        }
     }
 

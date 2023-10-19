@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "J6Vg+NwrT0TOY3kk4XCgBLnXhMiUpyMGQun5+fJMv/m17wmEJCRxD/AzSd44X0Nij5FszyyZsY/oXUSO5Nb8TA==",
+  "dgSpecHash": "n0vQqLTIZMmq/8HLlSlqiODxzt5Oh3BTHL5J3CGIVaj7OeQyK8TYQDE0eH4CzBNlBbn+kYm8HXeatJyEDJFvQw==",
   "success": true,
   "projectFilePath": "/Users/user/Desktop/BinaAPP/API/API.csproj",
   "expectedPackageFiles": [
     "/Users/user/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
+    "/Users/user/.nuget/packages/mediatr/12.1.1/mediatr.12.1.1.nupkg.sha512",
+    "/Users/user/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
     "/Users/user/.nuget/packages/microsoft.aspnetcore.openapi/7.0.4/microsoft.aspnetcore.openapi.7.0.4.nupkg.sha512",
     "/Users/user/.nuget/packages/microsoft.data.sqlite.core/7.0.11/microsoft.data.sqlite.core.7.0.11.nupkg.sha512",
     "/Users/user/.nuget/packages/microsoft.entityframeworkcore/7.0.11/microsoft.entityframeworkcore.7.0.11.nupkg.sha512",
