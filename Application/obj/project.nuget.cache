@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "d2Ak1h2Oyxw3StBtkiRpVOaQ2DArxOfeSH7OkkMYHgqpM/mudnElGj1Y0thnMrITWFZI2FtVBqPuNDqamGdkEg==",
+  "dgSpecHash": "lVGsAFmgAtbJvEVRptNVq2JZmUo6ueRq2Za00rtVu6wC8Y8mwBIVZNvFqikhSLht+9aGJsFDcGoRYx2yJYkSmA==",
   "success": true,
   "projectFilePath": "/Users/user/Desktop/BinaAPP/Application/Application.csproj",
   "expectedPackageFiles": [
+    "/Users/user/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
+    "/Users/user/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.1/automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "/Users/user/.nuget/packages/mediatr/12.1.1/mediatr.12.1.1.nupkg.sha512",
     "/Users/user/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
+    "/Users/user/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/Users/user/.nuget/packages/microsoft.data.sqlite.core/7.0.11/microsoft.data.sqlite.core.7.0.11.nupkg.sha512",
     "/Users/user/.nuget/packages/microsoft.entityframeworkcore/7.0.11/microsoft.entityframeworkcore.7.0.11.nupkg.sha512",
     "/Users/user/.nuget/packages/microsoft.entityframeworkcore.abstractions/7.0.11/microsoft.entityframeworkcore.abstractions.7.0.11.nupkg.sha512",
