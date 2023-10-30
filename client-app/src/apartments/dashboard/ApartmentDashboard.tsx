@@ -1,25 +1,16 @@
-import { useEffect,useState } from 'react'
-import './App.css'
-import axios from 'axios'
-import { Button, Header, Table } from 'semantic-ui-react';
+import { Button, Grid, Table } from "semantic-ui-react";
+import { Apartments } from "../../app/models/apartments";
 
 
-function App() {
-  const [apartments, setApartments]=useState([]);
+interface Props{
+    apartments:Apartments[];
+}
 
-  useEffect(()=>{
-       axios.get('http://localhost:5000/api/ApartmentsContoller')
-       .then(
-        response=>{
-          setApartments(response.data)
-        }
-       )
-  })
-  return(
-    <div>
-    <Header as='h2' icon='users' content='Apartments'/>
-    
-     
+export default function AparmentDashboard({apartments}:Props)
+{
+   return(
+    <Grid>
+       
         <Table celled>
             <Table.Header>
               <Table.Row>
@@ -31,7 +22,7 @@ function App() {
                 <Table.HeaderCell>Blok</Table.HeaderCell>
               </Table.Row>
             </Table.Header>
-            {apartments.map((apartment:any) =>(
+            {apartments.map(apartment =>(
             <Table.Body>
               <Table.Row>
                 <Table.Cell> {apartment.ownerName}</Table.Cell>
@@ -47,10 +38,7 @@ function App() {
          
       ))}
        </Table>
-    
-
-    </div>
-  )
+        
+    </Grid>
+   )
 }
-
-export default App
